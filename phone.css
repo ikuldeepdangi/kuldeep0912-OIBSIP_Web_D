@@ -1,0 +1,61 @@
+/* navigation */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1.2rem;
+    padding: 0px 9px;
+    padding-bottom: 8px;
+}
+
+/* home section  */
+#home{
+    height: 370px;
+    padding: 3px 28px;
+    
+
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* services section  */
+#benifits{
+    flex-direction: column;
+}
+
+#benifits .box{
+padding:14px;
+margin: 2px 0px;
+margin-bottom: 20px;
+}
+
+/* client section  */
+#donars{
+flex-wrap: wrap;
+
+}
+#donars img{
+    width:66px;
+    padding: 6px;
+    height: auto;
+}
+#contact-box form{
+    width: 80%;
+    
+}
+
+/* contact Us section  */
+
+/* footer */
+
+/* utility classes  */
+.h-primary{
+    font-size:26px ;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px ;
+}
